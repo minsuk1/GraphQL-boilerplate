@@ -1,5 +1,7 @@
 # Dependency directories
 node_modules/
+package-lock.json
+
 
 # history
 .history/
@@ -8,6 +10,8 @@ node_modules/
 dist/*
 
 # logs
+logs
+log
 *.log
 .log/
 
