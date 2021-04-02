@@ -1,0 +1,25 @@
+
+//사용자 전체 목록
+query {
+	users{
+    id
+    nickname
+    userId
+    password
+    createdAt
+    updatedAt
+	}
+}
+
+
+//사용자 1번 찾기
+query {
+	user(id : 1){
+    id
+    nickname
+    userId
+    password
+    createdAt
+    updatedAt
+	}
+}
